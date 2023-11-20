@@ -1,11 +1,12 @@
 package Password;
 
+import java.time.LocalDateTime;
 import java.util.Date;
 
 public class FinancePassword extends Password{
     private String cardID;
     private String password;
-    private Date expiryDate;
+    private LocalDateTime expiryDate;
 
     public String getCardID() {
         return cardID;
@@ -23,11 +24,11 @@ public class FinancePassword extends Password{
         this.password = password;
     }
 
-    public Date getExpiryDate() {
+    public LocalDateTime getExpiryDate() {
         return expiryDate;
     }
 
-    public void setExpiryDate(Date expiryDate) {
+    public void setExpiryDate(LocalDateTime expiryDate) {
         this.expiryDate = expiryDate;
     }
 }
