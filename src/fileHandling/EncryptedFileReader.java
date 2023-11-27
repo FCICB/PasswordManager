@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 
 public class EncryptedFileReader implements ReadableFile
 {
-    Pattern pattern;
+    private Pattern pattern;
     public boolean read(String path)
     {
         return false;
