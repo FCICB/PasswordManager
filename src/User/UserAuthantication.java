@@ -1,7 +1,5 @@
 package User;
 
-
-
 public class UserAuthantication {
 
     private User user;
