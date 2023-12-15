@@ -50,9 +50,7 @@ public class DatabaseConnection {
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        } catch (SQLException e) {
+        } catch (IOException  | SQLException e) {
             throw new RuntimeException(e);
         }
 
